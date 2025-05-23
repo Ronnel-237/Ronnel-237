@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>formulaire</title>
+	<style>
+		body{
+			background-color: aliceblue;
+			color: brown;
+			align-items: center;
+			padding: 20px;
+		}
+		.form{
+			background-color: antiquewhite;
+			align-items: center;
+			width: 75%;
+			border-radius: 30px;
+			border: 15px solid brown;
+		}
+		.nom{
+			text-align: center;
+			border-radius: 20px;
+		}
+		.prénom{
+			text-align: center;
+			border-radius: 20px;
+		}
+		.naissance{
+			text-align: center;
+			border-radius: 20px;
+		}
+		.sexe{
+			text-align: center;
+			border-radius: 20px;
+		}
+		.adresse{
+			text-align: center;
+			border-radius: 20px;
+		}
+		.téléphone{
+			text-align: center;
+			border-radius: 20px;
+		}
+		.loisir{
+			text-align: center;
+			border-radius: 20px;
+		}
+		.jj{
+			text-align: center;
+			border-radius: 20px;
+		}
+		.file{
+			text-align: center;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="form">
+		<form action=""><br><br>
+			<font color="pink"><h1 align="center"><ins><i>veuillez remplir ce formulaire convenablement</i></ins></h1></font><br><br>
+			<div class="nom">
+				<label for="">Entrer votre nom</label><br>
+		        <input type="text" value=""/><br>
+			</div>
+			<div class="prénom">
+				<label for="">Entrer votre prénom</label><br>
+		        <input type="text" value=""><br>
+			</div>
+			<div class="naissance">
+				<label for="">Entrer votre date de naissance</label><br>
+		        <input type="datetime-local" id="date"/><br>
+			</div>
+			<div class="sexe">
+				<label for="">sexe:</label>
+		<label for="">masculin</label>
+		<input type="radio" name="sexe" id="masculin"/>
+		<label for="">feminin</label>
+		<input type="radio" name="sexe" id="feminin"/><br>
+			</div>
+			<div class="adresse">
+				<label for="">adresse émail</label><br>
+		<input type="email" id=""/><br>
+			</div>
+			<div class="téléphone">
+				<label for="">numéro de téléphone:</label><br>
+		<input type="tel" id="" maxlength="9" minlength="9" required/><br>
+			</div>
+			<div class="loisir"><label for="">loisirs:</label>
+		<input type="checkbox" id="">
+		<label for="">football</label>
+		<input type="checkbox" id=""/>
+		<label for="">handball</label>
+		<input type="checkbox" id=""/>
+		<label for="">basketball</label><br></div>
+		<div class="jj">
+			<label for="">soumettre son TPE INF152:</label>
+		<input type="file"/><br>
+		</div>
+		<input type="submit"/>
+	</form>
+	</div>	
+	
+</body>
+</html>
